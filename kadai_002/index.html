@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>タイピングゲーム</title>
+    <meta charset="utf-8">
+    <meta name="description" content="【JavaScript応用編】簡易的なタイピングゲームです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="pre-game" class="count">
+      <p>ゲーム開始まで</p>
+      <p id="pre-count">3</p>
+    </div>
+    <div id="on-game" class="count">
+      <p>ゲーム終了まで</p>
+      <p id="on-count">60</p>
+    </div>
+    <div id="wrap" class="wrap">
+      <span id="typed" class="typed"></span><span id="untyped"></span>
+    </div>
+    <button id="start" class="start">スタート</button>
+    <p id="letter-count" class="letter-count">入力文字数：0</p>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
