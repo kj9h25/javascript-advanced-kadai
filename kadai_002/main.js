@@ -95,8 +95,8 @@ const rankCheck = score => {
 // ゲームを終了
 const gameOver = id => {
   clearInterval(id);
-  // 「タイムアップ！」を表示する
   onCount.textContent = '0';
+  // 「タイムアップ！」を表示する
   typedfield.textContent = '';
   untypedfield.textContent = 'タイムアップ！';
   // 1ms後にダイアログを表示する
